@@ -15,6 +15,28 @@ Education
 * M.S. in Computer Science, Technion Israel Institute of Technology, 2015
 * Ph.D, Northeastern University (currently in progress)
 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Service and leadership
+======
+* Program Committee Member in ACM Symposium on Applied Computing 2017
+
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
+Teaching
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Work experience
 ======
 * Winter 2018: Graduate Visiting Scholar
@@ -42,25 +64,3 @@ Skills
 * Functional programming
 * Academic writing
 * Embedded firmware and embedded Linux development
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Service and leadership
-======
-* Program Committee Member in ACM Symposium on Applied Computing 2017
