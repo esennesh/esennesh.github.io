@@ -11,49 +11,56 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.S. in Computer Science, University of Massachusetts Amherst, 2011
+* M.S. in Computer Science, Technion Israel Institute of Technology, 2015
+* Ph.D, Northeastern University (currently in progress)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Winter 2018: Graduate Visiting Scholar
+  * Northeastern University
+  * Development of analyses for fMRI data of the brain
+  * Adviser: Jan-Willem Van de Meent
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Spring 2017 to Fall 2017: Software Engineer (Full Stack)
+* Adept Mobile
+* Full-stack Ruby on Rails engineer, from the model to the front-end styling and scripting. Developed the backend to various JSON APIs for feeding data to mobile applications, a loyalty platform for sports teams, and the ecommerce website for the New England Patriots. All applications were run on Heroku and developed with Github.
+  * Supervisor: Craig Heneveld
+
+* Spring 2015 to Winter 2017: Member of Technical Staff
+  * LeafLabs, LLC
+  * Project-based research and development. Developed module firmware, including a boot-ROM, for Google’s Project Ara.  Designed the Greybus Bootrom Protocol now deployed in Greybus devices as part of the Motorola Moto-Z. Implemented the Trusted Administration Framework, a series of diskless Linux images built on NixOS for secure cryptographic computations.
+  * Supervisor: Marti Bolivar
+
+* Fall 2012 to Spring 2015: Graduate Research Assistant
+  * Technion Israel Institute of Technology
+  * Thesis "Unstructured Jumps and Compressed Size as Defect-Prediction Metrics", defended March 2015
+  * Committee: Yossi Gil and Eran Yahav
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Functional programming
+* Academic writing
+* Embedded firmware and embedded Linux development
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Program Committee Member in ACM Symposium on Applied Computing 2017
