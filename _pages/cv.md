@@ -23,8 +23,8 @@ Work experience
   * Adviser: Jan-Willem Van de Meent
 
 * Spring 2017 to Fall 2017: Software Engineer (Full Stack)
-* Adept Mobile
-* Full-stack Ruby on Rails engineer, from the model to the front-end styling and scripting. Developed the backend to various JSON APIs for feeding data to mobile applications, a loyalty platform for sports teams, and the ecommerce website for the New England Patriots. All applications were run on Heroku and developed with Github.
+  * Adept Mobile
+  * Full-stack Ruby on Rails engineer, from the model to the front-end styling and scripting. Developed the backend to various JSON APIs for feeding data to mobile applications, a loyalty platform for sports teams, and the ecommerce website for the New England Patriots. All applications were run on Heroku and developed with Github.
   * Supervisor: Craig Heneveld
 
 * Spring 2015 to Winter 2017: Member of Technical Staff
