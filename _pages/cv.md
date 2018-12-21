@@ -61,6 +61,9 @@ Work experience
 
 Skills
 ======
+* Bayesian machine learning
+* Deep probabilistic programming
+* Deep learning
 * Functional programming
 * Academic writing
 * Embedded firmware and embedded Linux development
