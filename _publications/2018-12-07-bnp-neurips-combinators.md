@@ -2,7 +2,7 @@
 title: "Composing Modeling and Inference Operations with Probabilistic Program Combinators"
 collection: publications
 permalink: /publication/2018-12-07-bnp-neurips-combinators
-date: 2018-10-04
+date: 2018-12-07
 venue: 'All of Bayesian Nonparametrics (Especially the Useful Bits) @ NeurIPS 2018'
 paperurl: 'https://drive.google.com/file/d/1bv8g7KTgpgRLsx3ZcaPzIlhGzSa-QkhQ/view'
 citation: 'Sennesh, E., Scibior, A., Wu, H., & van de Meent, J.-W. (2018). Composing Modeling and Inference Operations with Probabilistic Program Combinators.'
