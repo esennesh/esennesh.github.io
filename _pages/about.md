@@ -1,41 +1,34 @@
 ---
 permalink: /
-title: "The feeling, acting brain as a causality engine"
-excerpt: "The feeling, acting brain as a causality engine"
+title: "Feeling as fuel for action in the brain"
+excerpt: "Feeling as fuel for action in the brain"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-What gets you out of bed in the morning?  Are our feelings really just a bag of
-irrational tricks thrown together by evolutionary accident, or are there real
-reasons for us to act as we do?  How does 1.4kg of spongy meat trapped in a big
-white bone help us live proactively as individuals with meaningful lives?
+What gets you out of bed in the morning? Everything we do in life has a cost to
+our [body budget](https://news.northeastern.edu/2020/12/01/your-brain-is-the-worlds-most-proficient-accountant-heres-how/),
+and yet we do so much more with our lives than survive as minimally as possible.
+Is that just a trick of evolutionary accident, or do our feelings arise from more
+than the minimization of deficits?  Our situations change moment to moment, and ensuring our
+well-being across those changes requires [*predictive regulation*: allostasis](https://www.sciencedirect.com/science/article/pii/S0301051121002350).
 
-Neuroscience is coming to view the brain not as a passive organ of intellect,
-derailed by emotional spasms, but as a proactive organ of feeling, action, and
-causation.  Your situation changes moment to moment, and ensuring your
-well-being across those changes requires *predictive regulation*.  In every
-moment, your brain needs to infer, from nothing but experience and sensorimotor
-data: who am I, how do I feel, what's going on, and what can I do about it?
+In every moment, our brains need to infer, from nothing but experience and sensorimotor
+data: who am I, how do I feel, what's going on, and what can I do about it? Solving
+this problem requires the brain to build a generative model
+of the body and world, fit that model by predictive coding,
+and [infer](https://proceedings.mlr.press/v161/stites21a.html) beliefs about the unobserved
+components of that model.
 
-To do so, the feeling brain implements some of the finest intellectual
-instruments of thought we have today: hierarchical probabilistic inference,
-causal learning, and active inference.  I therefore see probability and
-information as fundamental to what life is: coffee cups cooling, evolution,
-embodied feeling, intellect, and agency may all have to obey probabilistic laws.
-
-To pursue these ideas, I work in the Probabilistic Modeling Lab at
-Northeastern University's CCIS, as well as the [Interdisciplinary Affective Science Laboratory](https://affective-science.org).
-We use the tools of machine learning, statistics, and computation to study the
-deep questions at the heart of neuroscience, cognition, and agency.  Potential
-applications range from [building machines that feel, value, and engage the world like people](https://www.youtube.com/watch?v=WvMnG07n2do), to [computational
-psychiatry](http://jnnp.bmj.com/content/early/2015/07/08/jnnp-2015-310737?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNNP_TrendMD-0), to [philosophical issues](http://journals.sagepub.com/doi/abs/10.1177/1754073916670021).
+I am in the 5th year of my PhD at Northeastern University.
+I work in the [Probabilistic Modeling Lab](https://jwvdm.github.io/) with Jan-Willem van
+de Meent and the [Interdisciplinary Affective Science Lab](https://affective-science.org)
+with Lisa Feldman Barrett and Karen Quigley. In the former I address efficient inference in [generative
+models for neuroscience](https://proceedings.neurips.cc/paper/2020/hash/8c3c27ac7d298331a1bdfd0a5e8703d3-Abstract.html) and related domains. In the latter I ask how interoception, the internal
+sense of the body, constrains action and the concepts constructed to reuse actions.
 
 [We're making the world a better place through probabilistic programming!](https://www.youtube.com/watch?v=J-GVd_HLlps)
 
-$$p = arg\,max_{p}\,H\left(Q\right) + -H_{Q(s; p, a)}\left[P(s, a, w)\right]$$
-$$p = arg\,max_{p}\,Simplicity+Accuracy$$
-$$a = arg\,max_{a}\,H\left(Q\right) + -H_{Q(s; p, a)}\left[U(s, a, w)\right]$$
-$$a = arg\,min_{a}\,Exploration+Exploitation$$
+$$\tilde{\mathcal{V}}^{*}_{\theta,\phi} = \mathbb{E}_{q_{\phi}(\mathbf{x}_{1:T} \mid \mathbf{x}_{0})} \left[ \sum_{t=1}^{T} J(\mathbf{x}_{t}, \mathbf{x}_{t+1}) - \mu \right] \leq \tilde{V}^{*}(\mathbf{x}_{0})$$
