@@ -1,4 +1,72 @@
 pub_date	title	venue	excerpt	citation	url_slug	paper_url
-2009-10-01	Paper Title Number 1	Journal 1	This paper is about the number 1. The number 2 is left for future work.	Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).	paper-title-number-1	http://academicpages.github.io/files/paper1.pdf
-2010-10-01	Paper Title Number 2	Journal 1	This paper is about the number 2. The number 3 is left for future work.	Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).	paper-title-number-2	http://academicpages.github.io/files/paper2.pdf
-2015-10-01	Paper Title Number 3	Journal 1	This paper is about the number 3. The number 4 is left for future work.	Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).	paper-title-number-3	http://academicpages.github.io/files/paper3.pdf
+2020-07-13	Amortized Population Gibbs Samplers with Neural Sufficient Statistics	37th International Conference on Machine Learning	We develop amortized population Gibbs (APG) samplers, a class of scalable methods that frame structured variational inference as adaptive importance sampling. APG samplers construct high-dimensional proposals by iterating over updates to lower-dimensional blocks of variables. We train each conditional proposal by minimizing the inclusive KL divergence with respect to the conditional posterior. To appropriately account for the size of the input data, we develop a new parameterization in terms of neural sufficient statistics. Experiments show that APG samplers can be used to train highly-structured deep generative models in an unsupervised manner, and achieve substantial improvements in inference accuracy relative to standard autoencoding variational methods. 	"@InProceedings{pmlr-v119-wu20h,
+  title = 	 {Amortized Population {G}ibbs Samplers with Neural Sufficient Statistics},
+  author =       {Wu, Hao and Zimmermann, Heiko and Sennesh, Eli and Le, Tuan Anh and Van De Meent, Jan-Willem},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {10421--10431},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/wu20h/wu20h.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/wu20h.html},
+  abstract = 	 {We develop amortized population Gibbs (APG) samplers, a class of scalable methods that frame structured variational inference as adaptive importance sampling. APG samplers construct high-dimensional proposals by iterating over updates to lower-dimensional blocks of variables. We train each conditional proposal by minimizing the inclusive KL divergence with respect to the conditional posterior. To appropriately account for the size of the input data, we develop a new parameterization in terms of neural sufficient statistics. Experiments show that APG samplers can be used to train highly-structured deep generative models in an unsupervised manner, and achieve substantial improvements in inference accuracy relative to standard autoencoding variational methods.}
+}"	Apg-icml-2020	http://esennesh.github.io/files/wu20h.pdf
+2020-11-14	Learning a Deep Generative Model like a Program: the Free Category Prior	AAAI Fall 2020 Symposium on Conceptual Abstraction and Analogy in Natural and Artificial Intelligence	"Humans surpass the cognitive abilities of most other animals in our ability to ""chunk"" concepts into words, and then combine the words to combine the concepts. In this process, we make ""infinite use of finite means"", enabling us to learn new concepts quickly and nest concepts within each-other. While program induction and synthesis remain at the heart of foundational theories of artificial intelligence, only recently has the community moved forward in attempting to use program learning as a benchmark task itself. The cognitive science community has thus often assumed that if the brain has simulation and reasoning capabilities equivalent to a universal computer, then it must employ a serialized, symbolic representation. Here we confront that assumption, and provide a counterexample in which compositionality is expressed via network structure: the free category prior over programs. We show how our formalism allows neural networks to serve as primitives in probabilistic programs. We learn both program structure and model parameters end-to-end. "	"@article{sennesh2020learning,
+  title={Learning a Deep Generative Model like a Program: the Free Category Prior},
+  author={Sennesh, Eli},
+  journal={arXiv preprint arXiv:2011.11063},
+  year={2020}
+}"	freecat-aaai-2020-symposium	http://esennesh.github.io/files/freecat_aaai_symposium_2020.pdf
+2020-12-06	Neural Topographic Factor Analysis for fMRI Data	Advances in Neural Information Processing Systems 33 (NeurIPS 2020) 	Neuroimaging studies produce gigabytes of spatio-temporal data for a small number of participants and stimuli. Recent work increasingly suggests that the common practice of averaging across participants and stimuli leaves out systematic and meaningful information. We propose Neural Topographic Factor Analysis (NTFA), a probabilistic factor analysis model that infers embeddings for participants and stimuli. These embeddings allow us to reason about differences between participants and stimuli as signal rather than noise. We evaluate NTFA on data from an in-house pilot experiment, as well as two publicly available datasets. We demonstrate that inferring representations for participants and stimuli improves predictive generalization to unseen data when compared to previous topographic methods. We also demonstrate that the inferred latent factor representations are useful for downstream tasks such as multivoxel pattern analysis and functional connectivity.	"@inproceedings{NEURIPS2020_8c3c27ac,
+ author = {Sennesh, Eli and Khan, Zulqarnain and Wang, Yiyu and Hutchinson, J Benjamin and Satpute, Ajay and Dy, Jennifer and van de Meent, Jan-Willem},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {12046--12056},
+ publisher = {Curran Associates, Inc.},
+ title = {Neural Topographic Factor Analysis for fMRI Data},
+ url = {https://proceedings.neurips.cc/paper/2020/file/8c3c27ac7d298331a1bdfd0a5e8703d3-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}"	Ntfa-neurips-2020	http://esennesh.github.io/files/ntfa_neurips_2020.pdf
+2021-07-27	Learning proposals for probabilistic programs with inference combinators	Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence	 We develop operators for construction of proposals in probabilistic programs, which we refer to as inference combinators. Inference combinators define a grammar over importance samplers that compose primitive operations such as application of a transition kernel and importance resampling. Proposals in these samplers can be parameterized using neural networks, which in turn can be trained by optimizing variational objectives. The result is a framework for user-programmable variational methods that are correct by construction and can be tailored to specific models. We demonstrate the flexibility of this framework by implementing advanced variational methods based on amortized Gibbs sampling and annealing. 	"@InProceedings{pmlr-v161-stites21a,
+  title = 	 {Learning proposals for probabilistic programs with inference combinators},
+  author =       {Stites, Sam and Zimmermann, Heiko and Wu, Hao and Sennesh, Eli and van de Meent, Jan-Willem},
+  booktitle = 	 {Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence},
+  pages = 	 {1056--1066},
+  year = 	 {2021},
+  editor = 	 {de Campos, Cassio and Maathuis, Marloes H.},
+  volume = 	 {161},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {27--30 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v161/stites21a/stites21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v161/stites21a.html},
+  abstract = 	 {We develop operators for construction of proposals in probabilistic programs, which we refer to as inference combinators. Inference combinators define a grammar over importance samplers that compose primitive operations such as application of a transition kernel and importance resampling. Proposals in these samplers can be parameterized using neural networks, which in turn can be trained by optimizing variational objectives. The result is a framework for user-programmable variational methods that are correct by construction and can be tailored to specific models. We demonstrate the flexibility of this framework by implementing advanced variational methods based on amortized Gibbs sampling and annealing.}
+}
+"	Combinators-uai-2021	http://esennesh.github.io/files/stites21a.pdf
+2021-12-20	Interoception as modeling, allostasis as control	Biological Psychology	The brain regulates the body by anticipating its needs and attempting to meet them before they arise – a process called allostasis. Allostasis requires a model of the changing sensory conditions within the body, a process called interoception. In this paper, we examine how interoception may provide performance feedback for allostasis. We suggest studying allostasis in terms of control theory, reviewing control theory’s applications to related issues in physiology, motor control, and decision making. We synthesize these by relating them to the important properties of allostatic regulation as a control problem. We then sketch a novel formalism for how the brain might perform allostatic control of the viscera by analogy to skeletomotor control, including a mathematical view on how interoception acts as performance feedback for allostasis. Finally, we suggest ways to test implications of our hypotheses.	"@article{sennesh2022interoception,
+  title={Interoception as modeling, allostasis as control},
+  author={Sennesh, Eli and Theriault, Jordan and Brooks, Dana and van de Meent, Jan-Willem and Barrett, Lisa Feldman and Quigley, Karen S},
+  journal={Biological Psychology},
+  volume={167},
+  pages={108242},
+  year={2022},
+  publisher={Elsevier}
+}"	Allostasis-biopsych-2021	http://esennesh.github.io/files/allostasis_biopsych_2021.pdf
+2022-03-29	A Computational Neural Model for Mapping Degenerate Neural Architectures	Neuroinformatics	Degeneracy in biological systems refers to a many-to-one mapping between physical structures and their functional (including psychological) outcomes. Despite the ubiquity of the phenomenon, traditional analytical tools for modeling degeneracy in neuroscience are extremely limited. In this study, we generated synthetic datasets to describe three situations of degeneracy in fMRI data to demonstrate the limitations of the current univariate approach. We describe a novel computational approach for the analysis referred to as neural topographic factor analysis (NTFA). NTFA is designed to capture variations in neural activity across task conditions and participants. The advantage of this discovery-oriented approach is to reveal whether and how experimental trials and participants cluster into task conditions and participant groups. We applied NTFA on simulated data, revealing the appropriate degeneracy assumption …	"@article{khan2022computational,
+  title={A computational neural model for mapping degenerate neural architectures},
+  author={Khan, Zulqarnain and Wang, Yiyu and Sennesh, Eli and Dy, Jennifer and Ostadabbas, Sarah and van de Meent, Jan-Willem and Hutchinson, J Benjamin and Satpute, Ajay B},
+  journal={Neuroinformatics},
+  pages={1--15},
+  year={2022},
+  publisher={Springer}
+}"	Ntfa-neuroinformatics-2022	http://esennesh.github.io/files/ntfa_neuroinformatics_2022.pdf
+2022-05-09	A Probabilistic Generative Model of Free Categories	arxiv	Applied category theory has recently developed libraries for computing with morphisms in interesting categories, while machine learning has developed ways of learning programs in interesting languages. Taking the analogy between categories and languages seriously, this paper defines a probabilistic generative model of morphisms in free monoidal categories over domain-specific generating objects and morphisms. The paper shows how acyclic directed wiring diagrams can model specifications for morphisms, which the model can use to generate morphisms. Amortized variational inference in the generative model then enables learning of parameters (by maximum likelihood) and inference of latent variables (by Bayesian inversion). A concrete experiment shows that the free category prior achieves competitive reconstruction performance on the Omniglot dataset.	"@article{sennesh2022probabilistic,
+  title={A Probabilistic Generative Model of Free Categories},
+  author={Sennesh, Eli and Xu, Tom and Maruyama, Yoshihiro},
+  journal={arXiv preprint arXiv:2205.04545},
+  year={2022}
+}"	Freecat-arxiv-2022	http://esennesh.github.io/files/freecat_arxiv_2022.pdf
